@@ -1,0 +1,21 @@
+/* common layout */
+.Page {
+    text-align: center;
+    /*background: linear-gradient(120deg,#1884ff,#0029af 40%,#973186 75%);*/
+    height: 2000px;
+    
+  }
+  
+  /* mobile layout */
+  @media (max-width: 600px) {
+    .Page {
+      color: red;
+    }
+  }
+  
+  /* desktop layout */
+  @media (min-width: 600px) {
+    .Page {
+      color: orange;
+    }
+  }

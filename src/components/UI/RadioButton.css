@@ -1,0 +1,48 @@
+/*$buttonRadioHeight: 24px;*/
+.custom-button-radio {
+    /*
+    width: calc(#{$buttonRadioHeight}*2);
+    height: $buttonRadioHeight;
+    */
+    width: calc(24px * 2);
+    height: 24px;
+
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+.custom-button-radio div {
+    /*
+    width: calc(#{$buttonRadioHeight} - 5px);
+    height: calc(#{$buttonRadioHeight} - 5px);
+    */
+    width: calc(24px - 5px);
+    height: calc(24px - 5px);
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    
+}
+.custom-button-radio-disable {
+    background-color: darkgrey;
+}
+/*.custom-button-radio-disable :hover {background-color: grey;}*/
+ .custom-button-radio-disable div {
+    position: relative;
+    left: 3px;
+    transition: 0.2s;
+}
+.custom-button-radio-enable {
+    /*
+    //background-color: $color;
+    //&:hover {background-color: $color;}
+    */
+}
+.custom-button-radio-enable div {
+    position: relative;
+    /*left: calc(#{$buttonRadioHeight} + 2px);*/
+    left: calc(24px + 2px);
+    transition: 0.2s;
+    /*left: 22px;*/
+}
